@@ -10,4 +10,8 @@
 
 @interface dog : NSObject
 
+
+/** name*/
+@property (strong, nonatomic)  NSString *name;
+
 @end
